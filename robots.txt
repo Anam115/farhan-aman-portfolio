@@ -1,0 +1,6 @@
+# robots.txt for Dr. Farhan Aman - Medical Professional Portfolio
+User-agent: *
+Allow: /
+
+# Sitemap placeholder (update with your actual production domain, e.g. https://drfarhanaman.com/sitemap.xml or https://farhanaman.github.io/sitemap.xml)
+Sitemap: https://drfarhanaman.com/sitemap.xml

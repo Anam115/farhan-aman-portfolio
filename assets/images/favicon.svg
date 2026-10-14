@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" aria-label="Dr. Farhan Aman Monogram Favicon">
+  <defs>
+    <linearGradient id="medGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#167D78"/>
+      <stop offset="100%" stop-color="#123B3A"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#55B3AD"/>
+      <stop offset="100%" stop-color="#EAF5F2"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Badge -->
+  <rect width="64" height="64" rx="16" fill="url(#medGrad)"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#EAF5F2" stroke-width="1.5" stroke-opacity="0.3"/>
+  
+  <!-- Subtle Medical Cross Accent -->
+  <path d="M32 12 V22 M27 17 H37" stroke="#55B3AD" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Monogram F A -->
+  <text x="32" y="47" font-family="'Times New Roman', serif" font-weight="700" font-size="24" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FA</text>
+  <circle cx="32" cy="54" r="2" fill="#55B3AD"/>
+</svg>
