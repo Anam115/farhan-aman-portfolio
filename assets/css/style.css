@@ -736,11 +736,12 @@ ul, ol {
   font-family: var(--font-serif);
   font-size: 3.25rem;
   font-weight: 700;
-  color: var(--color-primary-dark);
+  color: #FFFFFF;
   letter-spacing: 0.05em;
   line-height: 1;
   z-index: 2;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  transition: color var(--transition-base);
 }
 
 .portrait-medical-icon {
@@ -748,8 +749,23 @@ ul, ol {
   bottom: 12px;
   width: 26px;
   height: 26px;
-  color: rgba(35, 176, 168, 0.5);
+  color: #FFFFFF;
+  opacity: 0.92;
   z-index: 1;
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.5));
+  transition: color var(--transition-base), opacity var(--transition-base);
+}
+
+/* Ensure crisp white visibility across both light and dark modes */
+[data-theme="light"] .portrait-monogram,
+[data-theme="dark"] .portrait-monogram {
+  color: #FFFFFF;
+}
+
+[data-theme="light"] .portrait-medical-icon,
+[data-theme="dark"] .portrait-medical-icon {
+  color: #FFFFFF;
+  opacity: 0.92;
 }
 
 /* Actual image slot */
